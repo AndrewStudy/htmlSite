@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+    <form>
+        <div>
+            <label for="text2">Input text</label>
+            <input type="text" id="text2" value="Text common" readonly>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Введите эмайл">
+        </div>
+        <div>
+            <label for="pass">Input text</label>
+        <input type="password" id="pass">
+        </div>
+        <div>
+            <label for="num">Input text</label>
+        <input type="number" id="num" min="0" max="18">
+        </div>
+        <div>
+            <label for="rrr">Input text</label>
+        <input type="range" id="rrr" min="0" max="18" step="3">
+        </div>
+        <div>
+            <label for="d">Input text</label>
+        <input type="date" id="d" min="0" max="18" step="3">
+        </div>
+        <div>
+            <label for="ccc">Input text</label>
+        <input type="color" id="ccc" min="0" max="18" step="3">
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="sex">Gender</label>
+            <select id="sex">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Count</label>
+        <input type="checkbox" name="number2"> 1
+        <input type="checkbox" name="number2"> 7
+        <input type="radio" name="number"> 2
+        <input type="radio" name="number"> 3
+        <input type="radio" name="number"> 4
+        </div> 
+
+        <div>
+           <input type="submit" value="Export"> 
+           <input type="file" value="Export"> 
+        </div>
+    </form>
+</body>
+</html>
